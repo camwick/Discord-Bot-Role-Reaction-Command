@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client({ partials: ["MESSAGE", 'CHANNEL', 'REACTION']});
 
-// saved my bot key in a json file on my pc so that I could upload share this file
+// saved my bot key in a json file on my pc so that I could share this file
 const TOKEN = require('./config.json')
 
 // prefix to distinguish commands
